@@ -34,8 +34,10 @@ This is a basic example which shows you how to access the denotion data:
 ``` r
 library(denotion)
 
+?denotion
 denotion
 
+?denotion_beta
 denotion_beta
 ```
 
