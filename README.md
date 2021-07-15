@@ -1,0 +1,44 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# denotion
+
+<!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/denotion)](https://CRAN.R-project.org/package=denotion)
+[![lint](https://github.com/UBESP-DCTV/denotion/workflows/lint/badge.svg)](https://github.com/UBESP-DCTV/denotion/actions)
+[![R-CMD-check](https://github.com/UBESP-DCTV/denotion/workflows/R-CMD-check/badge.svg)](https://github.com/UBESP-DCTV/denotion/actions)
+<!-- badges: end -->
+
+The goal of denotion is to provide deanonimized and cleaned data from
+the NOTION project conducted by the Unit of Biostatistics, Epidemiology,
+and Public Health (UBEP) of the University of Padova.
+
+## Installation
+
+You can install the development version of `{denotion}` from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("UBESP-DCTV/denotion")
+```
+
+## Example
+
+This is a basic example which shows you how to access the denotion data:
+
+``` r
+library(denotion)
+## basic example code
+```
+
+## Code of Conduct
+
+Please note that the denotion project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
