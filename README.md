@@ -33,7 +33,10 @@ This is a basic example which shows you how to access the denotion data:
 
 ``` r
 library(denotion)
-## basic example code
+
+denotion
+
+denotion_beta
 ```
 
 ## Code of Conduct

@@ -11,8 +11,6 @@
 #' @return (chr) The data path stored in the `envvar_datapath`
 #'   environmental variable
 #'
-#' @export
-#'
 #' @examples
 #' get_datapath()
 get_datapath <- function(envvar_datapath = "DATAPATH") {

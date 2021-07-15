@@ -14,7 +14,8 @@ test_that("get_datapath works on the default DATAPATH envvar", {
 
 test_that("get_datapath throw an error if no envvar", {
     # expectations
-    expect_error(get_datapath(), "It must containing the path to data")
+    expect_error(get_datapath(""),
+                 "It must containing the path to data")
 })
 
 test_that("get_datapath throw an error if no envvar", {

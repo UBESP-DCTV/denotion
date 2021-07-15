@@ -10,7 +10,6 @@ if (interactive()) {
   suppressPackageStartupMessages(suppressWarnings({
     require(devtools)
     require(renv)
-    require(targets)
     require(testthat)
     require(usethis)
   }))

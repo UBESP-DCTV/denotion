@@ -13,12 +13,23 @@ Description: Provides deanonimized and cleaned data from the NOTION
     project conducted by the Unit of Biostatistics, Epidemiology, and
     Publich Health (UBEP) of the University of Padova.
 License: file LICENSE
+Depends: 
+    R (>= 2.10)
 Imports: 
-    fs,
-    usethis
+    rlang (>= 0.1.2),
+    tibble
 Suggests: 
+    devtools,
+    dplyr,
+    fs,
+    here,
+    readr,
+    roxygen2,
     spelling,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    tidyselect,
+    usethis,
+    utils
 Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US
