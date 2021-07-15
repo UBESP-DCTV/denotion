@@ -1,4 +1,4 @@
-# denotion (development version)
+# denotion 0.1.0
 
 * datasets `denotion` and `denotion_beta` provided.
 
