@@ -1,6 +1,6 @@
 Package: denotion
 Title: Deanonimized data from the NOTION project
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     c(person(given = "Corrado",
              family = "Lanera",
@@ -13,6 +13,9 @@ Description: Provides deanonimized and cleaned data from the NOTION
     project conducted by the Unit of Biostatistics, Epidemiology, and
     Publich Health (UBEP) of the University of Padova.
 License: file LICENSE
+Imports: 
+    fs,
+    usethis
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
