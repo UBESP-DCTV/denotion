@@ -17,5 +17,7 @@ Reads the Notion's \code{beta_data} from their source and pre-process
 them.
 }
 \examples{
-read_beta(path)
+\dontrun{
+  read_beta(path)
+}
 }

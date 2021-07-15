@@ -10,7 +10,9 @@ utils::globalVariables("where")
 #' @return a [tibble][tibble::tibble-package]
 #'
 #' @examples
-#' read_nested()
+#' \dontrun{
+#'   read_nested()
+#' }
 read_nested <- function(
     nested_path = file.path(get_datapath(), "nested_data.rds")
   ) {
@@ -29,7 +31,9 @@ read_nested <- function(
 #' @return a [tibble][tibble::tibble-package]
 #'
 #' @examples
-#' read_beta(path)
+#' \dontrun{
+#'   read_beta(path)
+#' }
 read_beta <- function(
   beta_path = file.path(get_datapath(), "beta_data.rds")
 ) {

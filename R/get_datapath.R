@@ -12,7 +12,9 @@
 #'   environmental variable
 #'
 #' @examples
-#' get_datapath()
+#' \dontrun{
+#'   get_datapath()
+#' }
 get_datapath <- function(envvar_datapath = "DATAPATH") {
 
   data_path <- Sys.getenv(envvar_datapath)

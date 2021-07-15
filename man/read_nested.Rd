@@ -17,5 +17,7 @@ Reads the Notion's \code{nested_data} from their source and pre-process
 them.
 }
 \examples{
-read_nested()
+\dontrun{
+  read_nested()
+}
 }

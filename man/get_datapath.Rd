@@ -19,5 +19,7 @@ Retrieve the path of the data folder stored in an environmental
 variable.
 }
 \examples{
-get_datapath()
+\dontrun{
+  get_datapath()
+}
 }
