@@ -44,7 +44,8 @@ lintr::lint_package()
 
 renv::status()
 renv::snapshot()  # if any new package is being installed/used
-rstudioapi::restartSession()
 
 usethis::use_tidy_description()
 
+# run tests
+# run checks

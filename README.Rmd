@@ -43,10 +43,16 @@ This is a basic example which shows you how to access the denotion data:
 
 ```{r example, eval = FALSE}
 library(denotion)
-## basic example code
+
+denotion
+
+denotion_beta
 ```
 
 
 ## Code of Conduct
   
-  Please note that the denotion project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+Please note that the denotion project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

@@ -6,7 +6,6 @@ base_packages <- c(
     "lintr",      # static-code analyser
     "shiny",      # interactive interface
     "spelling",   # spellcheck
-    "targets",     # reproducible R make-like environment
     "testthat",   # testing your function
     "tidyverse",  # tidy universe for data science
     "usethis"     # project development tools
@@ -41,3 +40,6 @@ usethis::use_github_action(
     url = "https://raw.githubusercontent.com/CorradoLanera/actions/master/R-CMD-check-renv.yaml"
 )
 usethis::use_github_actions_badge("R-CMD-check")
+
+usethis::use_data_raw("dataset")
+
