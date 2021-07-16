@@ -27,6 +27,14 @@ You can install the development version of `{denotion}` from
 remotes::install_github("UBESP-DCTV/denotion")
 ```
 
+If you don’t have access to the private GitHub repository, and you have
+a local copy of the source code[1], you can install `{denotion}`
+directly from there with:
+
+``` r
+remotes::install_local("path/to/package/source/directory")
+```
+
 ## Example
 
 This is a basic example which shows you how to access the denotion data:
@@ -47,3 +55,6 @@ Please note that the denotion project is released with a [Contributor
 Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
+
+[1] Or a compressed version (`tar`, `zip`, `tar.gz`, `tar.bz2`, `tgz2`
+or `tbz`) of the source code.

@@ -49,3 +49,8 @@ usethis::use_tidy_description()
 
 # run tests
 # run checks
+
+
+# After release ---------------------------------------------------
+
+devtools::build()

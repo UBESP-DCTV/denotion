@@ -36,6 +36,15 @@ You can install the development version of `{denotion}` from [GitHub](https://gi
 remotes::install_github("UBESP-DCTV/denotion")
 ```
 
+If you don't have access to the private GitHub repository, and you have
+a local copy of the source code^[Or a compressed version (`tar`, `zip`,
+`tar.gz`, `tar.bz2`, `tgz2` or `tbz`) of the source code.], you can
+install `{denotion}` directly from there with:
+
+``` r
+remotes::install_local("path/to/package/source/directory")
+```
+
 
 ## Example
 

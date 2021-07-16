@@ -1,3 +1,7 @@
+# denotion (development version)
+
+* removed `{rlang}` dependency.
+
 # denotion 0.1.0
 
 * datasets `denotion` and `denotion_beta` provided.
