@@ -1,4 +1,4 @@
-# denotion (development version)
+# denotion 0.1.1
 
 * removed `{rlang}` dependency.
 
