@@ -1,5 +1,6 @@
 ---
 output: github_document
+bibliography: inst/bibliography.bib
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -24,7 +25,7 @@ knitr::opts_chunk$set(
 
 The goal of denotion is to provide deanonimized and cleaned data from
 the NOTION project conducted by the Unit of Biostatistics, Epidemiology,
-and Public Health (UBEP) of the University of Padova.
+and Public Health (UBEP) of the University of Padova.[@Fusc2019MeasuringCI]
 
 
 ## Installation
@@ -37,12 +38,13 @@ remotes::install_github("UBESP-DCTV/denotion")
 ```
 
 If you don't have access to the private GitHub repository, and you have
-a local copy of the source code^[Or a compressed version (`tar`, `zip`,
-`tar.gz`, `tar.bz2`, `tgz2` or `tbz`) of the source code.], you can
-install `{denotion}` directly from there with:
+a local copy of the source code, you can install `{denotion}` directly
+from there with:^[You can download the latest release from
+[here](https://github.com/UBESP-DCTV/denotion/releases). Download the `.zip` file for the Windows' binary.]
+
 
 ``` r
-remotes::install_local("path/to/package/source/directory")
+install.packages("path/to/denotion_0.1.1.zip", repos = NULL)
 ```
 
 
@@ -67,3 +69,5 @@ Please note that the denotion project is released with a [Contributor
 Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
+
+## References

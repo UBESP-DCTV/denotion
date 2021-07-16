@@ -15,7 +15,7 @@ status](https://www.r-pkg.org/badges/version/denotion)](https://CRAN.R-project.o
 
 The goal of denotion is to provide deanonimized and cleaned data from
 the NOTION project conducted by the Unit of Biostatistics, Epidemiology,
-and Public Health (UBEP) of the University of Padova.
+and Public Health (UBEP) of the University of Padova.(Fuscà et al. 2019)
 
 ## Installation
 
@@ -28,11 +28,11 @@ remotes::install_github("UBESP-DCTV/denotion")
 ```
 
 If you don’t have access to the private GitHub repository, and you have
-a local copy of the source code[1], you can install `{denotion}`
-directly from there with:
+a local copy of the source code, you can install `{denotion}` directly
+from there with:[1]
 
 ``` r
-remotes::install_local("path/to/package/source/directory")
+install.packages("path/to/denotion_0.1.1.zip", repos = NULL)
 ```
 
 ## Example
@@ -56,5 +56,21 @@ Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
 
-[1] Or a compressed version (`tar`, `zip`, `tar.gz`, `tar.bz2`, `tgz2`
-or `tbz`) of the source code.
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-Fusc2019MeasuringCI" class="csl-entry">
+
+Fuscà, Elisa, Anna Bolzon, Alessia Buratin, M. Ruffolo, P. Berchialla,
+D. Gregori, E. Perissinotto, and I. Baldi. 2019. “Measuring Caloric
+Intake at the Population Level (NOTION): Protocol for an Experimental
+Study.” *JMIR Research Protocols* 8.
+
+</div>
+
+</div>
+
+[1] You can download the latest release from
+[here](https://github.com/UBESP-DCTV/denotion/releases). Download the
+`.zip` file for the Windows’ binary.
