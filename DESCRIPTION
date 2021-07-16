@@ -1,6 +1,6 @@
 Package: denotion
 Title: Deanonimized data from the NOTION project
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: 
     c(person(given = "Corrado",
              family = "Lanera",
@@ -16,7 +16,6 @@ License: file LICENSE
 Depends: 
     R (>= 2.10)
 Imports: 
-    rlang (>= 0.1.2),
     usethis,
     tibble
 Suggests: 
