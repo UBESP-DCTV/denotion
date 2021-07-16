@@ -3,7 +3,7 @@
 ^\.github$
 ^README\.Rmd$
 ^\.lintr$
-^dev/$
+^dev$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
