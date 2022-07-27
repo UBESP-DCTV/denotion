@@ -7,6 +7,7 @@ utils::globalVariables("where")
 #'
 #' @param nested_path (chr) path to the original `nested_data.rds`
 #'
+#' @import tibble
 #' @return a [tibble][tibble::tibble-package]
 #'
 #' @examples
@@ -28,6 +29,7 @@ read_nested <- function(
 #'
 #' @param beta_path (chr) path to the original `beta_data.rds`
 #'
+#' @import tibble
 #' @return a [tibble][tibble::tibble-package]
 #'
 #' @examples

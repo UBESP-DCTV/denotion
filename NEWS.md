@@ -1,3 +1,9 @@
+# denotion 0.1.2
+
+* added ddependency from `{tibble}`.
+* `{renv}` updated for R4.2+
+* packages used updated
+
 # denotion 0.1.1
 
 * removed `{rlang}` dependency.
