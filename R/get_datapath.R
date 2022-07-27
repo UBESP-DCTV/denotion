@@ -44,7 +44,8 @@ unprovided_envvar_datafolder_error_message <- function() {
     "{ui_code('usethis::edit_r_environ(\"project\")')}.
     Note:
       it could be in a ",
-      "{ui_value('notion/big_data_not_to_package_nor_git')} folder."
+    "{ui_value(file.path('notion', 'big_data_not_to_package_nor_git'))}",
+    " folder."
   )
 }
 
